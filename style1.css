@@ -1,0 +1,188 @@
+.header{
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.nav{
+	flex-grow: 1;
+
+}
+.ul{
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+.ul a{
+	font-size: 30px;
+	line-height: 40px;
+	color: #2A3D8F;
+}
+.ul a:hover{
+	color: #3893cc;
+}
+.footer{
+	display: flex;
+	justify-content: space-around;
+	padding: 35px 0px;
+	width: 1200px;
+	margin: 0px auto;
+	
+}
+.finish{
+	margin: 0px;
+	padding: 0px;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.img{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.fimg{
+	margin: 0px 10px;
+}
+.foxart{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.div1{
+	background-color: #B5D4C5;
+}
+.main{
+	height: 550px;
+	background-image: url(картинки/innsbruck1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main h1{
+	color: white;
+	margin: 0px;
+	padding-top: 240px;
+	font-weight: 60px;
+	line-height: 82px;
+}
+.diiv{
+	display: flex;
+	justify-content: space-between;
+}
+.uul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	padding-left: 20px;
+}
+.uul li::before{
+	content: "✓";
+}
+.asi{
+	display: flex;
+	flex-direction: column;
+	background-image: url(картинки/skier.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+	transition: 4s;
+	width: 30%;
+}
+.asi p{
+	margin: 0px;
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 2vw;
+	line-height: 33px;
+}
+.asi a{
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 60px;
+	padding: 5px 10px;
+	background-color: white;
+ 	opacity: 0.7;
+	align-self: flex-end;
+	color: black;
+}
+.main2{
+	width: 1200px;
+	margin: auto;
+}
+.fig{
+	border: thin #c0c0c0 solid;
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+.fig figcaption{
+	font-size: 22px;
+	line-height: 33px;
+	background-color: rgb(124, 124, 124);
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+.gall2{
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.gall3{
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+	align-items: center;
+	text-align: center;
+	color: white;
+	background-color: #b5d4c5;
+	min-height: 256px;
+	transition: 4s;
+}
+.gall3 h3{
+	width: 400px;
+	padding: 50px;
+	text-transform: uppercase;
+	font-size: 22px;
+
+}
+.map iframe{
+	width: 1200px;
+}
+h2{
+	color: #2a3d8f;
+	font-size: 36px;
+}
+.tab{
+	margin: auto;
+	width:  600px;
+	border-collapse: collapse;
+}
+.tab th{
+	background-color: darkblue;
+	color: white;
+	padding: 7px;
+	border: 2px darkblue solid;
+}
+.tab td{
+	text-align: center;
+	padding: 7px;
+	border: 2px black solid;
+
+}
+.gall3:hover{
+	transform: scale(1.2)
+}
+.asi:hover{
+	transform: rotate(360deg);	
+}
